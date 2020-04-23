@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    android:label="main_fragment"
+    app:startDestination="@id/destination_MainFrag">
+
+    <fragment
+        android:id="@+id/destination_MainFrag"
+        android:name="com.example.myapplication2.ui.fragments.Main_Fragment"
+        android:label="fragment_main_"
+        tools:layout="@layout/fragment_main_">
+        <action
+            android:id="@+id/MainFrag_To_ScoreboardFrag"
+            app:destination="@id/destination_scoreboard" />
+        <action
+            android:id="@+id/MainFrag_To_PlayFrag"
+            app:destination="@id/destination_play" />
+        <action
+            android:id="@+id/MainFrag_To_HowToFrag"
+            app:destination="@id/destination_howto" />
+    </fragment>
+    <fragment
+        android:id="@+id/destination_howto"
+        android:name="com.example.myapplication2.ui.fragments.HowTo_Fragment"
+        android:label="fragment_how_to_"
+        tools:layout="@layout/fragment_how_to_" />
+    <fragment
+        android:id="@+id/destination_scoreboard"
+        android:name="com.example.myapplication2.ui.fragments.Scoreboard_Fragment"
+        android:label="fragment_scoreboard_"
+        tools:layout="@layout/fragment_scoreboard_" />
+    <fragment
+        android:id="@+id/destination_play"
+        android:name="com.example.myapplication2.ui.fragments.Play_Fragment"
+        android:label="fragment_play_"
+        tools:layout="@layout/fragment_play_" >
+        <action
+            android:id="@+id/PlayFrag_To_EndgameFrag"
+            app:destination="@id/destination_endgame" />
+    </fragment>
+    <fragment
+        android:id="@+id/destination_settings"
+        android:name="com.example.myapplication2.ui.fragments.Settings_Fragment"
+        android:label="fragment_settings_"
+        tools:layout="@layout/fragment_settings_" />
+    <fragment
+        android:id="@+id/destination_endgame"
+        android:name="com.example.myapplication2.ui.fragments.endgame_fragment"
+        android:label="fragment_endgame_fragment"
+        tools:layout="@layout/fragment_endgame_fragment" >
+        <action
+            android:id="@+id/EndgameFrag_To_MainFrag"
+            app:destination="@id/destination_MainFrag" />
+    </fragment>
+</navigation>

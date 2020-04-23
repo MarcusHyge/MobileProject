@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application2</string>
+    <string name="welcome_to_fishy_fishy_fischer">Welcome To Fishy Fishy Fischer!</string>
+    <string name="Fishy_fishy_fischer" />
+    <string name="fishy_fishy_fischer">Fishy Fishy Fischer</string>
+    <string name="how_to_play">How to play</string>
+    <string name="scoreboard">Scoreboard</string>
+    <string name="play">Play</string>
+    <string name="back">Back</string>
+    <string name="settings">Settings</string>
+</resources>
