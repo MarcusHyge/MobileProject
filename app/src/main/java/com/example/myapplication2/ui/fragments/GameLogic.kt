@@ -11,13 +11,13 @@ import android.os.VibrationEffect
 import android.os.Vibrator
 import androidx.appcompat.app.AppCompatActivity
 
-public class GameLogic(playFragment: Play_Fragment) : AppCompatActivity(), SensorEventListener {
-    val sensorManager = getSystemService(Context.SENSOR_SERVICE) as SensorManager
-    val sensor: Sensor? = sensorManager.getDefaultSensor(Sensor.TYPE_GYROSCOPE_UNCALIBRATED)
+/**
+public class GameLogic(playFragment: Play_Fragment) : SensorEventListener {
+    // val sensorManager = getSystemService(Context.SENSOR_SERVICE) as SensorManager
+    // val sensor: Sensor? = sensorManager.getDefaultSensor(Sensor.TYPE_GYROSCOPE_UNCALIBRATED)
     var score = 0
     var timer = 0
     var GameGoing: Boolean = true
-
 
     override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) {
 
@@ -55,7 +55,7 @@ public class GameLogic(playFragment: Play_Fragment) : AppCompatActivity(), Senso
 
         }
 }
-
+**/
 
 
 

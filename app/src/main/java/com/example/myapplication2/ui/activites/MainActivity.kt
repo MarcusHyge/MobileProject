@@ -7,12 +7,15 @@ import android.hardware.SensorEventListener
 import android.hardware.SensorManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.fragment.app.commit
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
 import com.example.myapplication2.R
 import com.example.myapplication2.data.adapters.ScoreBoardAdapter
 import com.example.myapplication2.data.classes.DataSource.Companion.createDataSet
+import com.example.myapplication2.ui.fragments.endgame_fragment
+import com.example.myapplication2.ui.fragments.endgame_fragmentDirections
 import kotlinx.android.synthetic.main.activity_main.*
 import javax.sql.DataSource
 

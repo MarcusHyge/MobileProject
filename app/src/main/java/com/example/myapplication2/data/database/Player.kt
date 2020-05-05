@@ -11,9 +11,9 @@ data class Player constructor(
     @NonNull
     var player_id: String,
 
-     var score: Int = 0,
+    var score: Int = 0,
 
-     var raining : Boolean = false
+    var raining : Boolean = false
 ) {
     override fun toString(): String {
         return "$player_id , $score , $raining"

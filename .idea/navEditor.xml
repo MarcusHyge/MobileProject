@@ -8,6 +8,37 @@
             <LayoutPositions>
               <option name="myPositions">
                 <map>
+                  <entry key="destination_MainFrag">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="12" />
+                            <option name="y" value="12" />
+                          </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="MainFrag_To_HowToFrag">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="MainFrag_To_PlayFrag">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="MainFrag_To_ScoreboardFrag">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
                   <entry key="destination_endgame">
                     <value>
                       <LayoutPositions>
@@ -19,7 +50,7 @@
                         </option>
                         <option name="myPositions">
                           <map>
-                            <entry key="endgame_to_main">
+                            <entry key="EndgameFrag_To_MainFrag">
                               <value>
                                 <LayoutPositions />
                               </value>
@@ -52,7 +83,7 @@
                         </option>
                         <option name="myPositions">
                           <map>
-                            <entry key="play_to_endgame">
+                            <entry key="PlayFrag_To_EndgameFrag">
                               <value>
                                 <LayoutPositions />
                               </value>
@@ -82,37 +113,6 @@
                             <option name="x" value="-713" />
                             <option name="y" value="575" />
                           </Point>
-                        </option>
-                      </LayoutPositions>
-                    </value>
-                  </entry>
-                  <entry key="main_Fragment">
-                    <value>
-                      <LayoutPositions>
-                        <option name="myPosition">
-                          <Point>
-                            <option name="x" value="-729" />
-                            <option name="y" value="208" />
-                          </Point>
-                        </option>
-                        <option name="myPositions">
-                          <map>
-                            <entry key="main_to_howto">
-                              <value>
-                                <LayoutPositions />
-                              </value>
-                            </entry>
-                            <entry key="main_to_play">
-                              <value>
-                                <LayoutPositions />
-                              </value>
-                            </entry>
-                            <entry key="main_to_scoreboard">
-                              <value>
-                                <LayoutPositions />
-                              </value>
-                            </entry>
-                          </map>
                         </option>
                       </LayoutPositions>
                     </value>

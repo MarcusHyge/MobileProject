@@ -76,12 +76,13 @@
         app:layout_constraintTop_toBottomOf="@+id/cardView">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/playerList"
+            android:id="@+id/rv_playerList"
             android:layout_width="match_parent"
-            android:layout_height="492dp"
+            android:layout_height="549dp"
             android:layout_marginEnd="10dp"
             android:layout_marginRight="10dp"
-            android:layout_marginBottom="0dp" />
+            android:layout_marginBottom="0dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
     </FrameLayout>
 
     <Button
