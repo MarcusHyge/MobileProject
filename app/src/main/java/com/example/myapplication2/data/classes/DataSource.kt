@@ -1,5 +1,7 @@
 package com.example.myapplication2.data.classes
 
+import com.example.myapplication2.data.database.Player
+
 class DataSource{
 
     companion object{

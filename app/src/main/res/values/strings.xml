@@ -8,4 +8,17 @@
     <string name="play">Play</string>
     <string name="back">Back</string>
     <string name="settings">Settings</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="amount_nok">Amount NOK</string>
+    <string name="add_score">Add Score</string>
+    <string name="confirm">Confirm</string>
+    <string name="Name">Line 1</string>
+    <string name="Score">Line 2</string>
+    <string name="Raining">Line 2</string>
+    <string name="add_score_to_scoreboard">Add Score To Scoreboard</string>
+    <string name="textview">TextView</string>
+    <string name="start">Start!</string>
+    <string name="Fishy_Fishy_Fischer" />
+    <string name="FishyFischer" />
 </resources>

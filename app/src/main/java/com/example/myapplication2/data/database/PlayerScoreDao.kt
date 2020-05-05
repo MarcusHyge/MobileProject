@@ -4,17 +4,17 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.example.myapplication2.data.database.entity.PlayersScore
 import java.util.prefs.Preferences
 
 @Dao
 
-    interface PlayerScoreDao {
-        @Query("SELECT * FROM players_score")
-        fun getAll(): List<Preferences>
-    }
+interface PlayerScoreDao {
+    @Query("SELECT * FROM Player")
+    fun getAll(): List<Player>
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-    fun insert(word: PlayersScore) {
-    }
+    fun insert(player: Player)
+}
+
+
 
