@@ -33,10 +33,18 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        /*
         val navController = Navigation.findNavController(this,
             R.id.nav_host_fragment
         )
-        setupBottomSettings(navController)
+        */
+
+        //setupBottomSettings(navController)
+
+        supportFragmentManager.beginTransaction()
+            .add(R.id.end_game_fragment, endgame_fragment.newInstance("350", "Fake-Player"))
+            .commit()
     }
 
     override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) {

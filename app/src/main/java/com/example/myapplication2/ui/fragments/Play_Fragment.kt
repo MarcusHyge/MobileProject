@@ -28,7 +28,6 @@ class Play_Fragment : Fragment() {
             it.findNavController().navigate(R.id.destination_MainFrag)
         }
 
-        // btn_play is missing in the xml
         btn_start.setOnClickListener {
 
             // Execute event after 1000 ms = 1 sec
@@ -47,8 +46,6 @@ class Play_Fragment : Fragment() {
     }
 
     private fun vibrate() {
-        // Do the code to vibrate the code
-
         val v = activity?.getSystemService(Context.VIBRATOR_SERVICE) as Vibrator?
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             v!!.vibrate(VibrationEffect.createOneShot(250, VibrationEffect.DEFAULT_AMPLITUDE))
